@@ -10,10 +10,17 @@ namespace DSIClientX.csharp
     {
         static void Main(string[] args)
         {
-            var dsi = new DSICLIENTXLib.DSICLientX();
-            var response = dsi.ServerIPConfig("x1.mercurycert.net", 0);
-            Console.WriteLine(response);
-            Console.ReadLine();
+            try
+            {
+                var dsi = new DSICLIENTXLib.DSICLientX();
+                var response = dsi.ServerIPConfig("x1.mercurycert.net", 0);
+                Console.WriteLine(response);
+                Console.ReadLine();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
 
         }
     }
