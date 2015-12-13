@@ -18,5 +18,10 @@ namespace DSIClientX.csharp
         {
             return x * y;
         }
+
+        public double Division(int x, int y)
+        {
+            return x / y;
+        }
     }
 }
