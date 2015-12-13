@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSIClientX.csharp", "DSIClientX.csharp\DSIClientX.csharp.csproj", "{024AA889-27CF-4832-8AC4-DADB4CC2D501}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSIClientX.Test", "DSIClientX.Test\DSIClientX.Test.csproj", "{D0D85631-0A1F-4180-9ABA-9D61203636E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{024AA889-27CF-4832-8AC4-DADB4CC2D501}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{024AA889-27CF-4832-8AC4-DADB4CC2D501}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{024AA889-27CF-4832-8AC4-DADB4CC2D501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D85631-0A1F-4180-9ABA-9D61203636E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D85631-0A1F-4180-9ABA-9D61203636E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D85631-0A1F-4180-9ABA-9D61203636E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D85631-0A1F-4180-9ABA-9D61203636E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
